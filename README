@@ -1,0 +1,4 @@
+
+Merge tritan static library(object) tool on FDSP-IDE.
+
+FDSP-IDE build static library(object) tool not support include.
