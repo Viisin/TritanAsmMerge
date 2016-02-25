@@ -1,0 +1,28 @@
+
+#Module VR_SDK
+
+#Path E:\VR_SDK
+
+#Export _VR_Init_Sep
+#Export _VR_ISR_AddSample
+#Export _VR_Reset
+#Export _VR_AddSample_Service
+#Export _VR_GetResult
+
+#Export F_VR_Init_Sep
+#Export F_VR_ISR_AddSample
+#Export F_VR_Reset
+#Export F_VR_AddSample_Service
+#Export F_VR_GetResult
+
+#include "VR.INC"
+#include "VR_RAM.ASM"
+#include "VRSDK.ASM"
+#include "MATH16.ASM"
+#include "STATESCORE.ASM"
+#include "MFCC.ASM"
+#include "FFT128.ASM"
+#include "PREPROCESS.ASM"
+#include "MEL.ASM"
+#include "FIXLOG.ASM"
+#include "FIXDCT.ASM"
